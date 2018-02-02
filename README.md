@@ -11,6 +11,6 @@
     
     3. data中声明name与textContent
     
-    4. 页面中使用组件 /<html2wxml :parserName="name" :parserContent.sync="textContent"></html2wxml>
+    4. 页面中使用组件 '<html2wxml :parserName="name" :parserContent.sync="textContent"></html2wxml>'
     
     5. 获取到数据后需要 this.$invoke('html2wxml', 'htmlParserNotice')
