@@ -3,14 +3,12 @@
  
 ## 请下载这里的wxparse源码，对源码做过修改
  
-使用方法： 
+使用方法：
 
-    1. import html2wxml from "**/**/html2wxml"
-    
-    2. 注册组件
-    
-    3. data中声明name与textContent
-    
-    4. 页面中使用组件 \<html2wxml :parserName="name" :parserContent.sync="textContent"></html2wxml>
-    
-    5. 获取到数据后需要 this.$invoke('html2wxml', 'htmlParserNotice')
+   ### 仅下载文件，下载wxparse文件夹以及html2wxml.wpy即可
+ 
+更新：
+   ### 新增demo文件 ------> wxparseDemo
+   
+   
+   建议下载demo文件，使用前请自行下载wepy
