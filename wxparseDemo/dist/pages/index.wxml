@@ -1,0 +1,20 @@
+
+  <view class="container">
+    <button type="default" bindtap="translate">点击翻译富文本</button>
+    <button type="default" bindtap="translate1">点击翻译富文本1</button>
+
+    <view class="content">
+      
+    <import src="../wxparse/wxParse.wxml"/>
+    <block  wx:for="{{$html2wxml$htmlParserTpl.nodes}}" wx:key="{{index}}">
+        <template is="wxParse0" data="{{item}}"/>
+    </block>
+
+      
+    <import src="../wxparse/wxParse.wxml"/>
+    <block  wx:for="{{$html2wxml1$htmlParserTpl.nodes}}" wx:key="{{index}}">
+        <template is="wxParse0" data="{{item}}"/>
+    </block>
+
+    </view>
+  </view>
